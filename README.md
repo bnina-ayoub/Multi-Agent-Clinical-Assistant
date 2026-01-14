@@ -1,6 +1,6 @@
 # Clinical Assistant
 
-![Clinical Assistant](clinical_assistant/static/ai-launchpad-logo-wide.png)
+![clinical_assistant/static/ai-launchpad-logo-wide.png](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.techmagic.co%2Fblog%2Fai-agents-in-healthcare&ved=0CBYQjRxqFwoTCND_16Xgi5IDFQAAAAAdAAAAABBZ&opi=89978449)
 
 
 ## Requirements
@@ -111,3 +111,4 @@ At some point I'll also be migrating past projects from my Youtube channel to th
 
 1. [Agent From Scratch (agents_module/agent_from_scratch)](clinical_assistant/agents_module/agent_from_scratch/README.md)
 2. [Agent With MCP (agents_module/agent_with_mcp)](clinical_assistant/agents_module/agent_with_mcp/README.md)
+
