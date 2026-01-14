@@ -40,14 +40,6 @@
 
     ```bash
     git clone https://github.com/kenneth-liao/clinical-assistant.git
-    cd clinical-assistant
-    ```
-
-3. **Create a Virtual Environment and Install Dependencies**
-
-    ```bash
-    uv sync
-    ```
 
     By default, uv will create a virtual environment for you in the `.venv` directory in your project root.
 
@@ -55,13 +47,6 @@
 
     Read more about managing python projects with [uv](https://docs.astral.sh/uv/guides/projects/).
 
-4. **Copy the .env.example file to .env and add your API keys**
-
-    If on MacOS or Linux you can run the following command:
-
-    ```bash
-    cp .env.example .env
-    ```
 
     **REQUIRED KEYS**
 
