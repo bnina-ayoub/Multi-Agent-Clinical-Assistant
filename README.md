@@ -5,6 +5,13 @@
 
 ## Requirements
 
+- python-dotenv
+- langchain
+- langchain_community
+- langchain_ollama
+- openai
+- anthropic
+- (see requirements.txt for full list)
 
 ## Getting Started
 
