@@ -61,7 +61,6 @@ This project is based on and extends the excellent work in [`ai-launchpad`](http
 
 For more details, see the module READMEs and code comments.
     For MacOS and Linux you can also run the following curl command:
-    ---
 
     ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -75,11 +74,11 @@ For more details, see the module READMEs and code comments.
 
     There are several other ways to install uv. For more information, see the uv [documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
-2. **Clone the Repository and Navigate to the Project Directory**
+5. **Clone the Repository and Navigate to the Project Directory**
 
     ```bash
     git clone https://github.com/kenneth-liao/clinical-assistant.git
-
+    ```
     By default, uv will create a virtual environment for you in the `.venv` directory in your project root.
 
     This also installs the clinical_assistant project in editable mode so any changes to the codebase will be immediately reflected.
@@ -89,24 +88,25 @@ For more details, see the module READMEs and code comments.
 
     **REQUIRED KEYS**
 
-    We use OpenAI as the default LLM provider and Tavily for search.
+```We use OpenAI as the default LLM provider and Tavily for search.
 
-    **[Agents module](clinical_assistant/agents_module/README.md):**
+**[Agents module](clinical_assistant/agents_module/README.md):**
 
-    - [OPENAI_API_KEY](https://platform.openai.com/account/api-keys) (required)
-    - [TAVILY_API_KEY](https://tavily.com/) (required)
+- [OPENAI_API_KEY](https://platform.openai.com/account/api-keys) (required)
+- [TAVILY_API_KEY](https://tavily.com/) (required)
 
-    **[Langgraph module](clinical_assistant/langgraph_module/README.md):**
+**[Langgraph module](clinical_assistant/langgraph_module/README.md):**
 
-    - [OPENAI_API_KEY](https://platform.openai.com/account/api-keys) (required)
-    - [TAVILY_API_KEY](https://tavily.com/) (required)
-    - [LANGSMITH_API_KEY](https://smith.langchain.com/) (optional)
+- [OPENAI_API_KEY](https://platform.openai.com/account/api-keys) (required)
+- [TAVILY_API_KEY](https://tavily.com/) (required)
+- [LANGSMITH_API_KEY](https://smith.langchain.com/) (optional)
+```
 
-    I highly recommend getting a free Langsmith API key for observability which is critical for debugging and optimizing AI applications built with Langgraph.
+I highly recommend getting a free Langsmith API key for observability which is critical for debugging and optimizing AI applications built with Langgraph.
 
-    The project also has the Anthropic (langchain_anthropic) and Ollama (langchain_ollama) langchain integrations installed so you can easily switch to Anthropic or Ollama models if you prefer.
+The project also has the Anthropic (langchain_anthropic) and Ollama (langchain_ollama) langchain integrations installed so you can easily switch to Anthropic or Ollama models if you prefer.
 
-5. **Run the Code!**
+6. **Run the Code!**
 
     **This project uses ipykernel for interactive development!**
 
@@ -135,6 +135,7 @@ At some point I'll also be migrating past projects from my Youtube channel to th
 
 1. [Agent From Scratch (agents_module/agent_from_scratch)](clinical_assistant/agents_module/agent_from_scratch/README.md)
 2. [Agent With MCP (agents_module/agent_with_mcp)](clinical_assistant/agents_module/agent_with_mcp/README.md)
+
 
 
 
